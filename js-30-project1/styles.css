@@ -1,0 +1,53 @@
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: gray;
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btns{
+    display: flex;
+    gap: 15px;
+
+}
+.key{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    transition: all .09s ease;
+    background-color: rgb(60, 58, 58);
+
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+.key kbd{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.key span{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: yellow;
+}
